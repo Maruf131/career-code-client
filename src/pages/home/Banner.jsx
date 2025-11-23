@@ -1,5 +1,5 @@
-import React from 'react';
-import { motion } from "motion/react"
+// eslint-disable-next-line no-unused-vars
+import {motion} from "motion/react"
 import team1 from '../../assets/team/team-1.jpg'
 import team2 from '../../assets/team/team-2.jpg'
 
