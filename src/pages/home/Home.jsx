@@ -2,7 +2,7 @@ import React, { Suspense } from 'react';
 import Banner from './Banner';
 import HotJobs from './HotJobs';
 
-const jobsPromise = fetch('http://localhost:5000/jobs').then(res => res.json());
+const jobsPromise = fetch('http://localhost:5001/jobs').then(res => res.json());
 const Home = () => {
     return (
         <div>
@@ -13,5 +13,4 @@ const Home = () => {
         </div>
     );
 };
-
 export default Home;
